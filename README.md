@@ -1,101 +1,91 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Pizza Sales Analysis</title>
-</head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 20px;">
+# 🍕 Pizza Sales Analysis (Python Project)
 
-    <h1>🍕 Pizza Sales Analysis (Python Project)</h1>
+## 📌 Project Overview
+This project analyzes pizza sales data to extract meaningful business insights.  
+The goal is to understand sales performance, customer behavior, and product trends using Python.
 
-    <h2>📌 Project Overview</h2>
-    <p>
-        This project analyzes pizza sales data to extract meaningful business insights.
-        The goal is to understand sales performance, customer behavior, and product trends using Python.
-    </p>
+---
 
-    <h2>🎯 Objectives</h2>
-    <ul>
-        <li>Calculate key performance indicators (KPIs)</li>
-        <li>Analyze sales trends (daily, weekly)</li>
-        <li>Identify top-selling and least-selling pizzas</li>
-        <li>Understand customer preferences by category and size</li>
-        <li>Provide data-driven business recommendations</li>
-    </ul>
+## 🎯 Objectives
+- Calculate key performance indicators (KPIs)
+- Analyze sales trends (daily, weekly)
+- Identify top-selling and least-selling pizzas
+- Understand customer preferences by category and size
+- Provide data-driven business recommendations
 
-    <h2>📂 Dataset</h2>
-    <ul>
-        <li><b>File:</b> pizza_sales.csv</li>
-        <li>Includes order details, pizza name, quantity, price, date & time, category, and size</li>
-    </ul>
+---
 
-    <h2>🛠️ Tools & Technologies</h2>
-    <ul>
-        <li>Python</li>
-        <li>Pandas</li>
-        <li>NumPy</li>
-        <li>Matplotlib</li>
-        <li>Seaborn</li>
-    </ul>
+## 📂 Dataset
+- File: `pizza_sales.csv`
+- Contains:
+  - Order ID
+  - Pizza Name
+  - Quantity
+  - Total Price
+  - Date & Time
+  - Pizza Category & Size
 
-    <h2>🔍 Steps Performed</h2>
+---
 
-    <h3>1. Data Loading</h3>
-    <ul>
-        <li>Loaded dataset using Pandas</li>
-        <li>Explored data using head(), info(), describe()</li>
-    </ul>
+## 🛠️ Tools & Technologies
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-    <h3>2. Data Cleaning</h3>
-    <ul>
-        <li>Checked missing values</li>
-        <li>Removed duplicate records</li>
-        <li>Converted date column into datetime format</li>
-    </ul>
+---
 
-    <h3>3. Exploratory Data Analysis (EDA)</h3>
-    <ul>
-        <li>Total Revenue, Total Orders, Total Pizzas Sold</li>
-        <li>Average Order Value (AOV)</li>
-        <li>Sales by Category and Size</li>
-        <li>Top 5 and Bottom 5 pizzas</li>
-        <li>Sales trends by day</li>
-    </ul>
+## 🔍 Steps Performed
 
-    <h2>📊 Key Insights</h2>
-    <ul>
-        <li>Classic category and Large size pizzas generate the highest revenue</li>
-        <li>A few pizzas dominate total sales</li>
-        <li>Sales peak during specific days and hours</li>
-        <li>Some pizzas consistently underperform</li>
-    </ul>
+### 1. Data Loading
+- Loaded dataset using Pandas
+- Checked structure using `head()`, `info()`, `describe()`
 
-    <h2>📈 Business Decisions</h2>
-    <ul>
-        <li>Focus marketing on high-performing pizzas</li>
-        <li>Maintain stock for high-demand categories</li>
-        <li>Improve or remove low-performing pizzas</li>
-        <li>Offer discounts on slow-selling items</li>
-        <li>Increase staff during peak hours</li>
-    </ul>
+### 2. Data Cleaning
+- Checked missing values
+- Removed duplicates
+- Converted date column into datetime format
 
-    <h2>📌 Conclusion</h2>
-    <p>
-        The analysis provides insights into sales trends, customer preferences, and product performance,
-        helping improve decision-making in marketing, inventory, and operations.
-    </p>
+### 3. Exploratory Data Analysis (EDA)
+- Total Revenue, Total Orders, Total Pizzas Sold
+- Average Order Value (AOV)
+- Sales by Category and Size
+- Top 5 and Bottom 5 pizzas
+- Sales trends by day
 
-    <h2>🚀 Future Improvements</h2>
-    <ul>
-        <li>Build interactive dashboard (Power BI / Tableau)</li>
-        <li>Add sales forecasting</li>
-        <li>Deploy as a web-based dashboard</li>
-    </ul>
+---
 
-    <h2>👨‍💻 Author</h2>
-    <p>
-        Omkar Chafekar <br>
-        GitHub: <a href="https://github.com/Omkar2304">https://github.com/Omkar2304</a>
-    </p>
+## 📊 Key Insights
+- Classic category and Large size pizzas generate the highest revenue  
+- A few pizzas dominate total sales  
+- Sales are higher during specific days and peak hours  
+- Some pizzas consistently underperform  
 
-</body>
-</html>
+---
+
+## 📈 Business Decisions
+- Focus marketing on high-performing pizzas  
+- Maintain stock for high-demand categories  
+- Improve or remove low-performing pizzas  
+- Offer discounts on slow-selling items  
+- Increase staff during peak hours  
+
+---
+
+## 📌 Conclusion
+The analysis helps in understanding sales trends, customer preferences, and product performance.  
+These insights can improve decision-making in marketing, inventory, and operations.
+
+---
+
+## 🚀 Future Improvements
+- Build interactive dashboard (Power BI / Tableau)
+- Add time-based forecasting
+- Deploy as web dashboard
+
+---
+
+## 👨‍💻 Author
+- Omkar Chafekar  
+- GitHub: https://github.com/Omkar2304
